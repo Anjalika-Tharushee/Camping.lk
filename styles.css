@@ -505,21 +505,20 @@ h1 {
   position: relative;
   overflow: hidden;
   border-radius: 28px;
-  border: 1px solid rgba(169, 214, 172, 0.18);
+  border: 2px solid rgba(169, 214, 172, 0.18);
   box-shadow: 0 18px 42px rgba(0, 0, 0, 0.22);
   transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
 }
 
 .gear-card:hover {
-  transform: translateY(-4px);
   border-color: rgba(169, 214, 172, 0.28);
-  box-shadow: 0 24px 52px rgba(0, 0, 0, 0.28);
+  box-shadow: 20px 24px 52px rgba(0, 0, 0, 0.28);
 }
 
 .gear-badge {
   display: inline-flex;
   width: fit-content;
-  padding: 7px 11px;
+  padding: 6px 10px;
   border-radius: 999px;
   background: rgba(122, 214, 124, 0.12);
   border: 1px solid rgba(169, 214, 172, 0.18);
@@ -543,7 +542,7 @@ h1 {
 }
 
 .card-actions .btn {
-  flex: 1 1 0;
+  flex: 1 1 1;
 }
 
 .btn {
@@ -551,8 +550,8 @@ h1 {
   align-items: center;
   justify-content: center;
   gap: 8px;
-  min-height: 42px;
-  padding: 10px 14px;
+  min-height: 40px;
+  padding: 4px 12px;
   border-radius: 999px;
   border: 1px solid rgba(169, 214, 172, 0.16);
   background: rgba(17, 26, 20, 0.92);
